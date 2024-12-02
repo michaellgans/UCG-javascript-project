@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-container {
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.items-card {
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.item-picture {
+    background-image: url("../images/Orange.jpg");
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: cover;
+}
+
+.items-container .item-card img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid red;
+}
+
+/* Cart Styling */
+.checkout {
+    margin: 20px;
+}
+
+.checkout img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border: 2px solid black;
+}
