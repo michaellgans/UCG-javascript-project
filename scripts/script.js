@@ -1,13 +1,14 @@
 // Sample item to add to the cart
 const item = {
-    name: "Sample Product",
-    price: 10.00
+    name: "",
+    price: 0.00
 };
 
 // Get references to DOM elements
+const itemName = document.getElementsByClassName("item-header")
 const cartDiv = document.getElementById("cart");
-const totalSpan = document.getElementById("total");
-const addItemBtn = document.getElementById("addItemBtn");
+const cartTotal = document.getElementById("total");
+const addOrange = document.getElementById("addOrange");
 
 // Cart state
 let cartItems = [];
@@ -27,12 +28,12 @@ function updateCart() {
     });
 
     // Update the total
-    totalSpan.textContent = total.toFixed(2);
+    cartTotal.textContent = total.toFixed(2);
 }
 
 // Function to add an item to the cart
 function addItemToCart() {
-    // Add the item to the cart
+    // Add the item to the cart list
     cartItems.push(item);
 
     // Update the total
@@ -43,5 +44,5 @@ function addItemToCart() {
 }
 
 // Event listener for the button click
-addItemBtn.addEventListener("click", addItemToCart);
+addOrange.addEventListener("click", addItemToCart);
 
