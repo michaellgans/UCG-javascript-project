@@ -74,7 +74,7 @@ section {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border: 5px solid red;
+    border: 5px solid salmon;
 }
 
 /* Cart Styling */
@@ -100,20 +100,17 @@ section {
 .cart-item {
     display: flex;
     flex-direction: column;
-    border: 2px green solid;
     margin: 10px;
     padding: 10px;
 }
 
 .info-container {
     display: flex;
-    border: 2px green solid;
     justify-content: space-around;
     width: 100%;
 }
 
 .cart-footer {
-    border: 2px pink solid;
     height: 100%;
 }
 
@@ -122,7 +119,6 @@ section {
     justify-content: space-between;
     justify-items: center;
     align-items: center;
-    border: 2px blue solid;
     height: auto;
     padding: 5px;
 }
