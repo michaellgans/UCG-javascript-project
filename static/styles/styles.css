@@ -43,6 +43,10 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.item-card:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 .item-header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -130,6 +134,29 @@ section {
     align-items: center;
     height: auto;
     padding: 5px;
+}
+
+.checkout-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+}
+
+.checkout-button button {
+    background-color: salmon;
+    color: white;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    border: lightpink 2px solid;
+}
+
+.checkout-button button:hover {
+    opacity: .9;
 }
 
 /* Icon Styling */
