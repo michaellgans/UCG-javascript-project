@@ -134,9 +134,14 @@ section {
 
 /* Icon Styling */
 
-.bi-plus-circle,
-.bi-dash-circle {
+.decrement,
+.increment {
     padding: 5px;
+}
+
+.decrement:hover,
+.increment:hover {
+    color: salmon;
 }
 
 .add-item:hover {
