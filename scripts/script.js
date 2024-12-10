@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "add-orange", name: "Oranges" },
       { id: "add-apple", name: "Apples" },
       { id: "add-bananas", name: "Bananas" },
-      { id: "add-avocado", name: "Avocados" },
+      // ADD CODE FOR AVOCADOS HERE
     ];
   
     // Reference to the cart body where items will be appended
@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Reference to the subtotal and total elements
     const subtotalElement = document.getElementById("subtotal");
-    const totalElement = document.getElementById("total");
-  
+    // ADD CODE FOR TOTAL
+    
     let subtotal = 0;
-    const taxRate = 0.08517;
+    // ADD CODE FOR TAX
   
     // Function to update subtotal and total display
     function updateTotals() {
