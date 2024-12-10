@@ -174,3 +174,13 @@ section {
 .add-item:hover {
     color: salmon;
 }
+
+/* Checkout */
+
+.thank-you {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
